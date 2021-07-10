@@ -1,4 +1,4 @@
-###Map()
+### Map()
 
 Use map when you want to manipulate all the values in an array - for example multiply them by 2. In this example map is used to change all the values in the array into Euros.
 ```
@@ -11,7 +11,7 @@ euros //  [29.76, 41.85, 46.5]
 ```
 Map traverses the array from left to right. It invokes a function (in this case, eachAmount * .93) on eachAmount (which you can call whatever you want). When the method is finished mapping all the elements it returns a new array with all the translated elements.
 
-###Filter()
+### Filter()
 
 Use when you want to remove unwanted elements from an array.
 ```
