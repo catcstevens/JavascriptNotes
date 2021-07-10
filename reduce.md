@@ -10,7 +10,7 @@ let arr = [];
 arr.reduce(callback(acc, curVal, index, src), initVal); 
 ```
 
-#####Parameters:
+##### Parameters:
 ```
 Accumulator (acc)
 Current Value (curVal)
@@ -24,7 +24,7 @@ Source Array | optional: This is the array object reduce() was called upon.
 Initial Value | optional: This is the initial value to be passed to the function. If no initial value is supplied, the first element in the array will be used as the initial accumulator value and the second element becomes the current value
 ```
 
-#####Examples
+##### Examples
 ```
 const euros = [29.76, 41.85, 46.5];
 
